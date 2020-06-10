@@ -15,7 +15,7 @@ But bots have a weakness: most of them ignore the JavaScript on your website. Ja
 Since most bots ignore JavaScript, this anti-spam solution makes your fillable form require JavaScript.
 
 
-### Installation
+## Installation
 
 Install it via the WordPress plugin install page:
 
