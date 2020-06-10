@@ -6,15 +6,15 @@ Install this plugin, and walk away.
 
 ## What it does
 
-Simply put, this is an anti-spam plugin, designed to limit the junk mail you get from the email forms on your WordPress website.
+Simply put, this is an **anti-spam plugin**, designed to limit the junk mail you get from the email forms on your WordPress website.
 
 ### How it works
 
-Most spam isn't from real people typing in annoying messages on your website - it's from "bots". Bots are computer programs that scour the internet, looking for every fillable form they can find. Once a fillable form is found on your website, bots submit their pre-written spam message.
+Most spam isn't from real people typing in annoying messages on your website - it's from "bots". Bots are computer programs that scour the internet, looking for every fillable form they can find. Once a fillable forms are found, bots submit their pre-written spam messages.
 
 But bots have a weakness: most of them ignore the JavaScript on your website. JavaScript is the fancy code that makes your website come to life, with things like animating sliders, or dropdown menus. Many major websites today require JavaScript just to use the website.
 
-Since most bots ignore JavaScript, this anti-spam solution makes your fillable form require JavaScript.
+Since most bots ignore JavaScript, this anti-spam solution makes your fillable form require JavaScript. It injects invisible code to a the email message before sending, and then makes your WordPress site look for this invisible code. If the code isn't there, it flags the email as possible spam.
 
 
 ## Installation
