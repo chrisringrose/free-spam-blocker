@@ -1,6 +1,8 @@
 # Free Spam Blocker for WordPress
 
-A tiny and lightweight spam blocker for WordPress. Install this plugin, and walk away.
+A tiny and lightweight spam blocker for WordPress.
+
+Install this plugin, and walk away.
 
 ## What it does
 
@@ -19,8 +21,8 @@ Since most bots ignore JavaScript, this anti-spam solution makes your fillable f
 
 Install it via the WordPress plugin install page:
 
-1. Log into your WordPress page with admin access.
-2. Go to the **Plugins** tab on the left in WordPress.
+1. Log into your WordPress page with admin access
+2. Go to the **Plugins** tab on the left in WordPress
 3. Click **Add New** (Located near the top of the page)
 4. In the **Search plugins** box, type **Free Spam Blocker**
 5. Click **Install Now**, and then click **Activate**
