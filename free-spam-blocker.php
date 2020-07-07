@@ -28,6 +28,7 @@ along with Free Spam Blocker.
 */
 
 
+
 defined('ABSPATH') or die('No script kiddies please!');
 define('WP_DEBUG', true);
 
@@ -42,7 +43,8 @@ define('FSB_JS_URL', plugins_url('free-spam-blocker.js', __FILE__));
 
 
 function fsb_str_contains($haystack, $needle) {
-	return strpos($haystack, $needle) !== false;
+	if (is_array($haystack)) return strpos(implode('|', $haystack), $needle) !== false;
+	else return strpos($haystack, $needle) !== false;
 }
 
 
@@ -82,6 +84,11 @@ function fsb_mail_filter($args) {
 
 function fsb_plugins_loaded() {
 	//require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'initialize.php';
+	
+	
+	// Cache based on date modified
+	$fsb_js_ver = date('Ymd-Gis', filemtime(FSB_JS_FILE_PATH));
+	wp_enqueue_script('fsb_js', FSB_JS_URL, array(), $fsb_js_ver);
 	
 	
 	require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'settings.php';
