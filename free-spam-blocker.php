@@ -1,9 +1,9 @@
 <?php
 /**
 Plugin Name:       Free Spam Blocker
-Plugin URI:        https://chrisringrose.com
+Plugin URI:        https://github.com/chrisringrose/free-spam-blocker
 Description:       Simple and free spam blocking
-Version:           1.0.0
+Version:           1.0.1
 Requires at least: 5.2
 Requires PHP:      7.0
 Author:            Chris Ringrose

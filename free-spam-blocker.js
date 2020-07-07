@@ -11,7 +11,7 @@ function fsb_add_event(element, eventName, callFunction) {
 function fsb_replace_all_submit_elements() {
 
 	// Find all forms (supports WPForms, Gravity Forms, Contact Form 7)
-	let formElms = document.querySelectorAll("form[id^='wpforms-form-'],form[id^='gform_'],.fw_form_fw_form");
+	let formElms = document.querySelectorAll("form.wpcf7-form,form[id^='wpforms-form-'],form[id^='gform_'],.fw_form_fw_form");
 	for (let i = 0; i < formElms.length; i++) {
 		
 		let formElm = formElms[i];

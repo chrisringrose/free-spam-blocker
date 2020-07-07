@@ -16,6 +16,9 @@ But bots have a weakness: most of them ignore the JavaScript on your website. Ja
 
 Since most bots ignore JavaScript, this anti-spam solution makes your fillable form require JavaScript. It injects invisible code to a the email message before sending, and then makes your WordPress site look for this invisible code. If the code isn't there, it flags the email as possible spam.
 
+#### Is it annoying to my real website visitors?
+
+Nope. It's completely hidden and unnoticeable. No annoying CAPTCHA boxes, or making people click on images that contain traffic lights.
 
 ## Installation
 
